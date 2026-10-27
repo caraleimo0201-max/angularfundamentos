@@ -1,0 +1,19 @@
+.par{
+    background-color: chocolate;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+.impar{
+    background-color: rgb(97, 187, 37);
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: 'Segoe UI', sans-serif;
+
+
+
+
+}

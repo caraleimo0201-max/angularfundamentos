@@ -1,0 +1,15 @@
+<h1>Numeros componentes</h1>
+<button (click)="generarNumero()">Generar</button>
+<ul>
+    @for (num of numeros; track num) {
+
+        <li [ngClass]="{
+            par: num % 2 == 0,
+            impar: num % 2 != 1
+        }">
+        {{num}}
+
+        </li>        
+    }
+
+</ul>
