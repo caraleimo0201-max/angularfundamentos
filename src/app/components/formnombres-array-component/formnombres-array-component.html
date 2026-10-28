@@ -1,0 +1,19 @@
+<p> 1 input, button, list ul</p>
+<h1>Form nombres</h1>
+<form #form="ngForm">
+    <input type="text" name="cajanombre" #cajanombre/>
+    <button (click)="insertarNombre()">
+        Insertar nombre
+    </button>
+
+</form>
+<h2 style="color: black">
+    Tienes {{arraynombres.length}} nombres
+
+</h2>
+<ul>
+    @for (nombre of arraynombres; track nombre) {
+        <li>{{nombre}}</li>
+    }
+
+</ul>

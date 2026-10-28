@@ -16,7 +16,7 @@ export class NumerosEstilosComponent implements OnInit {
     
     }
 
-    generarNumeros(): void { 
+    generarNumero(): void { 
         let random = Math.floor(Math.random() * 100) + 1;
         this.numeros.push (random);
 

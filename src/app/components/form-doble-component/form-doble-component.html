@@ -1,0 +1,9 @@
+<h1>Form doble</h1>
+<form #formd="ngForm">
+    //dame un numero:
+    <input type="number" name="cajanombre" #cajanumero/>
+    <button (click)="mostramosDoble()">
+        Ver doble
+    </button> 
+</form>
+<h2 style="color: crimson">{{doble}}</h2>
