@@ -14,6 +14,7 @@ import { FormSaludoComponent } from './components/form-saludo-component/form-sal
 import { FormDobleComponent } from './components/form-doble-component/form-doble-component';
 import { FormsumarNumerosComponent } from './components/formsumar-numeros-component/formsumar-numeros-component';
 import { FormnombresArrayComponent } from './components/formnombres-array-component/formnombres-array-component';
+import { FormNumeroComponent } from './components/form-numero-component/form-numero-component';
 
 @NgModule({
   declarations: [
@@ -29,6 +30,7 @@ import { FormnombresArrayComponent } from './components/formnombres-array-compon
     FormDobleComponent,
     FormsumarNumerosComponent,
     FormnombresArrayComponent,
+    FormNumeroComponent,
   ],
   imports: [BrowserModule, AppRoutingModule, FormsModule],
   providers: [provideBrowserGlobalErrorListeners()],

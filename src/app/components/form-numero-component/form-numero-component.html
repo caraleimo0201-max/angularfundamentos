@@ -1,0 +1,21 @@
+<h1>Numeros</h1>
+<form #form="ngForm">
+    <input type="number" name="cajanumero" #cajanumero>
+    
+    <button type="button">MostrarNumeros</button>
+     
+</form>
+<ul>
+    @for (numero of arraynumeros; track numero){
+           <li [ngClass]="{
+            positivo: numero > 0,
+            negativo: numero < 0
+        }">{{numero}}</li>
+    }
+    
+</ul>
+
+
+
+
+    
